@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta nama="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahara Nusantara - Daftar Member</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.jpg" alt="Ahara Nusantara Logo" class="logo">
+            <div class="branding">
+                <h1>Ahara Nusantara</h1>
+                <p>Ahara Nusantara, Mewarisi Cita Rasa Nusantara</p>
+            </div>
+        </header>
+        <main>
+            <h2>Daftar Member</h2>
+            <form action="home.html" method="post">
+                <label for="username">username:</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+
+                <label for="phone">Nomer HP:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Masukkan nomer HP" pattern="[0-9]{10,13}" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="pasword" placeholder="Masukkan Password" required>
+
+                <button type="submit">Daftar</button> <p>Sudah punya akun? <a href="index.html">Login di sini</a></p>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
